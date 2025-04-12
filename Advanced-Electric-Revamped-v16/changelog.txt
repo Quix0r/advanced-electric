@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.7.5
+Date: 04/12/2025
+  Changes:
+    - added build_package.py which generates a release ZIP file for using with Factorio
+      and mod portal upload
+  Fixes:
+    - `mods` was/is by mod a shorthand version of `script.active_mods` which is generic
+---------------------------------------------------------------------------------------------------
 Version: 0.7.4
   Changes:
     - Added JSON migration for renaming technologies to plural version as the base game does this

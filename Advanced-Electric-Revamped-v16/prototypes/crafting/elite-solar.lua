@@ -13,7 +13,7 @@ if difficulty == "hard" then
 end
 
 local category = nil
-if mods["space-age"] then
+if scripts.active_mods["space-age"] then
   category = "electronics"
 end
 

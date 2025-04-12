@@ -111,6 +111,6 @@ end
 data.raw["accumulator"]["accumulator"].fast_replaceable_group = "accumulator"
 data.raw["solar-panel"]["solar-panel"].fast_replaceable_group = "solar-panel"
 
-if mods["5dim_core"] then
+if scripts.active_mods["5dim_core"] then
 	require("prototypes.item-group-5dim")
 end

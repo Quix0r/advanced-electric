@@ -15,7 +15,7 @@ end
 local steel_plate_tungsten_plate = {type = "item", name = "steel-plate", amount = math.floor(25 * difficulty_factor + 0.5)}
 local processing_unit_superconductor = {type = "item", name = "processing-unit", amount = math.floor(25 * difficulty_factor + 0.5)}
 local recipe_category = "crafting"
-if mods["space-age"] then
+if scripts.active_mods["space-age"] then
 	steel_plate_tungsten_plate = {type = "item", name = "tungsten-plate", amount = math.floor(10 * difficulty_factor + 0.5)}
 	processing_unit_superconductor = {type = "item", name = "superconductor", amount = math.floor(5 * difficulty_factor + 0.5)}
 	recipe_category = "electromagnetics"

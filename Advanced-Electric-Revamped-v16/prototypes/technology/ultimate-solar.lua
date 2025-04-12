@@ -2,7 +2,7 @@ local mul = settings.startup["advanced-electric-multiplier-ultimate-solar"].valu
 
 local electromagnetic_science_pack = nil
 local additional_prerequisites = nil
-if mods["space-age"] then
+if scripts.active_mods["space-age"] then
   electromagnetic_science_pack = {"electromagnetic-science-pack", 1}
   additional_prerequisites = "electromagnetic-science-pack"
 end

@@ -1,7 +1,7 @@
 -- This fixes krastorio weirdness since it messes with default solar panels and accumulators
 -- Final fixes is needed since krastorio uses data-updates.lua to change vanilla items
 
-if mods["Krastorio2"] then
+if scripts.active_mods["Krastorio2"] then
 	local orig_accu = data.raw["accumulator"]["accumulator"]
 
 	-- Advanced
@@ -41,7 +41,7 @@ if mods["Krastorio2"] then
 	data.raw["solar-panel"]["ultimate-solar"].production = numberstringmultiplicator(data.raw["solar-panel"]["solar-panel"]["production"], mul)
 end
 
-if mods["FactorioExtended-Plus-Power"] == nil then
+if scripts.active_mods["FactorioExtended-Plus-Power"] == nil then
 	data.raw["accumulator"]["accumulator"].next_upgrade = "advanced-accumulator"
 	data.raw["solar-panel"]["solar-panel"].next_upgrade = "advanced-solar"
 end
