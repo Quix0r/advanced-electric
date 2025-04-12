@@ -13,6 +13,7 @@ if difficulty == "hard" then
 end
 
 local category = nil
+
 if mods["space-age"] then
   category = "electronics"
 end

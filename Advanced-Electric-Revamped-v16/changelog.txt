@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.7.5
+Date: 04/12/2025
+  Changes:
+    - added build_package.py which generates a release ZIP file for using with Factorio
+      and mod portal upload
+---------------------------------------------------------------------------------------------------
 Version: 0.7.4
   Changes:
     - Added JSON migration for renaming technologies to plural version as the base game does this
